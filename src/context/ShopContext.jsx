@@ -1,7 +1,5 @@
-import React, { createContext, useState } from 'react';
-
-// Create the context
-export const ShopContext = createContext();
+import React, { useState } from 'react';
+import { ShopContext } from './ShopContextDefinition.js'; // Import the context definition
 
 // Create a provider component
 export const ShopProvider = ({ children }) => {
