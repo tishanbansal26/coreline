@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ShopContext } from '../context/ShopContext'; // Import context
+import { ShopContext } from '../context/ShopContext.jsx'; // Import context
 
 // Cart Page Component
 const Cart = ({ setCurrentPage }) => {

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { ShopProvider } from './context/ShopContext'; // Import the ShopProvider
+import { ShopProvider } from './context/ShopContext.jsx'; // Import the ShopProvider
 
 // Import Page Components
-import ProductList from './pages/ProductList';
-import ProductDetail from './pages/ProductDetail';
-import Cart from './pages/Cart';
+import ProductList from './pages/ProductList.jsx';
+import ProductDetail from './pages/ProductDetail.jsx';
+import Cart from './pages/Cart.jsx';
 
 // Import Component for Header
-import Header from ```````````````````````````````'./components/Header'```````````````````````````````;
+import Header from './components/Header.jsx';
 
 // Main App Component
 export default function App() {
@@ -17,18 +17,6 @@ export default function App() {
   return (
     // Tailwind CSS setup for the entire app
     <div className="min-h-screen bg-gray-100 font-inter antialiased">
-      {/* Load Tailwind CSS from CDN - crucial for styling */}
-      <script src="https://cdn.tailwindcss.com"></script>
-      {/* Load Inter font from Google Fonts */}
-      <style>
-        {`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-        body {
-          font-family: 'Inter', sans-serif;
-        }
-        `}
-      </style>
-
       {/* ShopProvider wraps the entire application to provide cart context */}
       <ShopProvider>
         {/* Header component is always visible */}

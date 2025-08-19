@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
-import { ShopContext } from '../context/ShopContext'; // Import context
-import Modal from '../components/Modal'; // Import Modal component
+import { ShopContext } from '../context/ShopContext.jsx'; // Import context
+import Modal from '../components/Modal.jsx'; // Import Modal component
 
 // Product Detail Page Component
 const ProductDetail = ({ product, setCurrentPage }) => {
