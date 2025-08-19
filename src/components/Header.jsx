@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ShopContext } from '../context/ShopContext'; // Import context
+import { ShopContext } from '../context/ShopContextDefinition.js'; // Import context
 
 // Header Component with navigation and cart icon
 const Header = ({ currentPage, setCurrentPage }) => {

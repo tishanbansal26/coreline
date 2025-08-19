@@ -1,6 +1,6 @@
     import React from 'react';
     import ReactDOM from 'react-dom/client';
-    import App from './App.js'; // Ensure this path is correct
+    import App from './App.jsx'; // Ensure this path is correct
 
     // You might also have a global CSS file here, e.g.:
     // import './index.css';

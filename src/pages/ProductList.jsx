@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProductCard from '../components/ProductCard'; // Import ProductCard
+import ProductCard from '../components/ProductCard.jsx'; // Import ProductCard
 import { mockProducts } from '../data/mockProducts'; // Import mock data
 
 // Product Listing Page Component
